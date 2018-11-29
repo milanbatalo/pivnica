@@ -6,4 +6,4 @@ Database Connection
 
 Goals
 
-Planning to modify frontend part of application, provide buy a beer.
+Planning to modify frontend part of application, provide log in mechanism for users and make shopping cart to buy a beer.
