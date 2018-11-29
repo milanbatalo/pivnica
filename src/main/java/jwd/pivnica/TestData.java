@@ -41,5 +41,16 @@ public class TestData {
 		pi1.setProcenatAlkohola((float)7.0);
 		pi1.setKolicina(123);
 		pivoService.save(pi1);
+		
+		Pivo pi2 = new Pivo();
+		pi2.setNaziv("Lav");
+		pi2.setPivara(p2);
+		pi2.setVrsta("svetlo");
+		pi2.setIbu((float)11.3);
+		pi2.setProcenatAlkohola((float)7.0);
+		pi2.setKolicina(133);
+		pivoService.save(pi2);
+		
+		
 	}
 }

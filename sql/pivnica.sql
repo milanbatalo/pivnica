@@ -1,0 +1,8 @@
+DROP DATABASE IF EXISTS pivnica;
+CREATE DATABASE pivnica DEFAULT CHARACTER SET utf8;
+
+USE pivnica;
+
+GRANT ALL ON pivnica.* TO 'root'@'%' IDENTIFIED BY 'root';
+
+FLUSH PRIVILEGES;
